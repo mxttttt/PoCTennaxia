@@ -9,13 +9,22 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tennaxia.sign",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Cette application nécessite l'accès à la localisation pour enregistrer la position lors de la livraison.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Cette application nécessite l'accès à la localisation pour enregistrer la position lors de la livraison.",
+        "NSLocationAlwaysUsageDescription": "Cette application nécessite l'accès à la localisation pour enregistrer la position lors de la livraison."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.tennaxia.sign"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +40,24 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Permettre à $(PRODUCT_NAME) d'utiliser votre localisation.",
+          "locationWhenInUsePermission": "Permettre à $(PRODUCT_NAME) d'utiliser votre localisation pendant l'utilisation de l'app."
         }
       ]
     ],

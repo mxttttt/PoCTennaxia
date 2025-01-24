@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "348275137093",
+    "project_id": "poctennaxia",
+    "storage_bucket": "poctennaxia.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348275137093:android:3ced37971332f7f359612c",
+        "android_client_info": {
+          "package_name": "com.tennaxia.sign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348275137093-oun8ku6e9di90ot6rjmul50i3s0cuhct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tennaxia.sign",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "348275137093-2bl9pfcjqt9detqgd4onm2en3ntjpue6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgFlO6gOITZ8Mcn_hTPQ6LTiGevDP2ZQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348275137093-2bl9pfcjqt9detqgd4onm2en3ntjpue6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "348275137093-d6370n4kh0anseglk584o5gh0e83k0eg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tennaxia.sign"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
